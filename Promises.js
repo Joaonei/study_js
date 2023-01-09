@@ -1,5 +1,5 @@
 //Promises são como promessas na vida real,ela está esperando algum retorno;
-/* const myPromise = new Promise((resolve,reject) => {
+ const myPromise = new Promise((resolve,reject) => {
 
     const nome = "João"
   if(nome === "Matheus"){
@@ -13,7 +13,7 @@
 
 myPromise2.then((data)=>{
     console.log(data)
-}) *//* 
+}) 
 // Para encadear mais processos utilizamos o método then
 const myPromise = new Promise((resolve,reject) => {
 
@@ -31,7 +31,7 @@ myPromise.then((data)=>{
     return data.toLowerCase()
 }).then((stringmodificada)=>{
     console.log(stringmodificada)
-} ) */
+} )
 
 // resolver várias promessas all Array de promessas
 // Race retorna o código para primeira que for resolvida
