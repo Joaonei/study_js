@@ -13,7 +13,7 @@ console.log(!"true"); // false
 console.log(~5);     // -6
 console.log(typeof 4);   // "number"
 console.log(void 0); // undefined
-
+    
 
 
 
