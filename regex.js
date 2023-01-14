@@ -15,7 +15,19 @@ const arquivos = [
 // <.+> .+ <\/.+>
 const html = '<p> Olá Mundo</p> <p> Olá de novo</p>'
 
+const cpfs = "os Cpfs são: 254.224.887-45 215.978.456-12 04.258.369-96 963.987.321-00 "
+
+const ips = `
+Os ips são:
+0.0.0.0
+
+255.255.255.255
+
+`;
+
+
+
 const alfabeto = 'ABCDEFGHIJKLMNFOPQUVXZ abcdefghijklmnfopquvxz @!0123456789'
 
 
-module.exports = {texto, arquivos,html,alfabeto}
+module.exports = {texto, arquivos,html,alfabeto, cpfs, ips}
