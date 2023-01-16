@@ -13,7 +13,7 @@ const arquivos = [
 
 ];
 // <.+> .+ <\/.+>
-const html = '<p> Olá Mundo</p> <p> Olá de novo</p>'
+const html = '<p class = "test teste"> Olá Mundo</p> <p> Olá de novo</p>'
 
 const cpfs = "os Cpfs são: 254.224.887-45 215.978.456-12 04.258.369-96 963.987.321-00 "
 
