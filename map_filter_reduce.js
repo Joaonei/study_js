@@ -34,6 +34,9 @@ const uniqueArray = yetAnotherArray.filter( (elem, index, arr) => arr.indexOf(el
 
 //console.log(uniqueArray)
 
+
+
+
 //reduce(callback[, initialValue]) aplica callback(firstValue, secondValue) para reduzir a lista de itens para um único valor e retorna este valor.
 
 const rockts = [
