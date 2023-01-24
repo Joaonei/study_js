@@ -22,8 +22,6 @@ function showTime() {
     document.querySelector('.demo').innerHTML = txt;
 }
 
-
-
-
+// clearTimeOut Para antes de rodar
 document.querySelector('.comecar').addEventListener('click', comecar )
 document.querySelector('.terminar').addEventListener('click',terminar )
