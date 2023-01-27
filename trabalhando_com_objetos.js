@@ -80,6 +80,10 @@ const celular = new Celular ('Asus', 5.5,5000);
 console.log(celular)
 
 //// Ojeto.create
+
+
+
+
 const person = {
   isHuman: false,
   printIntroduction: function() {
@@ -94,3 +98,5 @@ me.isHuman = true; // Inherited properties can be overwritten
 
 me.printIntroduction();
 // Expected output: "My name is Matthew. Am I human? true"
+console.dir(person)
+
