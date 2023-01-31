@@ -23,6 +23,7 @@ class Color {
 
 
 class Carro {
+        static alerta = true
     constructor (cor, modelo, marca){
         this.cor = cor
         this.modelo = modelo
@@ -31,13 +32,14 @@ class Carro {
         this.km = 0
         this.combustivel = 10
     }
-    info () {
+   static info () {
         console.log("Cor........ :" + this.cor)
         console.log("modelo..... :" + this.modelo)
         console.log("marca...... :" + this.marca)
         console.log("ligado..... :" + (this.ligado ? "Sim":"Não"))
         console.log("km......... :" + this.km)
         console.log("Combustivel :" + this.combustivel)
+        console.log("Combustivel :" + Carro.alerta)
         console.log(".............");
     }
     ligar(){
